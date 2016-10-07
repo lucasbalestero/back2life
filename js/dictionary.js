@@ -1,4 +1,21 @@
+var en = {
+	player : {
+		live : "Live",
+		work : "work"
+	}
+	
+}
+
+var br = {
+	player : {
+		live : "Vivo",
+		work : "Trabalho"
+	}
+	
+}
+
 function Language(lang){
+
 	var __construct = function() {
 		if (eval('typeof ' + lang) == 'undefined'){
 			lang = "en";
@@ -20,18 +37,4 @@ function Language(lang){
 		}
 }
 
-var en = {
-	player : {
-		live : "Live",
-		work : "work"
-	}
-	
-}
 
-var br = {
-	player : {
-		live : "Vivo",
-		work : "Trabalho"
-	}
-	
-}
