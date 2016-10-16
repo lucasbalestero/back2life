@@ -1,7 +1,8 @@
 var en = {
 	player : {
 		live : "Live",
-		work : "work"
+		work : "work",
+		age  : "Age"
 	}
 	
 }
@@ -9,7 +10,8 @@ var en = {
 var br = {
 	player : {
 		live : "Vivo",
-		work : "Trabalho"
+		work : "Trabalho",
+		age  : "Idade"
 	}
 	
 }
